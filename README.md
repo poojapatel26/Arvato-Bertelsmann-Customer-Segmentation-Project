@@ -3,4 +3,6 @@
 
 ## Useful links
 
-[Undersampling for Imbalance classification](https://machinelearningmastery.com/undersampling-algorithms-for-imbalanced-classification/)
+[Model Evaluation for ROC Curve Explained](https://www.dataschool.io/roc-curves-and-auc-explained/)
+
+
