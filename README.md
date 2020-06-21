@@ -4,18 +4,19 @@
 
 1. [Dependencies]()
 2. [Description]()
-3. [Project Motivation]()
-4. [File Description]()
-5. [Licensing, Authors, Acknowledgements]()
-6. [References]()
+3. [Data files]()
+4. [Project Motivation]()
+5. [File Description]()
+6. [Licensing, Authors, Acknowledgements]()
+7. [References]()
   
 ## Dependencies
 
-* Python 3* 
-* NumPy
-* Pandas
-* Matplotlib
-* Sciki-Learn
+* [Python 3*](https://www.python.org/) 
+* [NumPy](http://www.numpy.org/)
+* [Pandas](http://pandas.pydata.org/)
+* [matplotlib](https://matplotlib.org/)
+* [Sciki-Learn](https://scikit-learn.org/stable/)
 
 ## Description
 This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Arvato Bertelsmann.
@@ -47,9 +48,19 @@ The Project is divided in the following Sections:
 The main goal of this project is to characterize the customer segment of the population, and to build a model that will be able to predict customers for Arvato Financial Solutions
 
 ## File Description
+There are mainly two Notebooks available,
+`Arvato Project Customer Segmentation Report.ipynb` : It includes Data analysis and Unsurvised learning techinques to compare general population to the company's customers. 
 
+`Arvato Project ML prediction.ipynb` : It includes Supervised learning techniques to predict which individuals are most likely to respond to a mailout campaign.
 
+And two python files,
+`cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset.
 
+`ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and 
+model evaluation functions.
+
+## Results
+The main findings of the code can be found at this Customer Segemnetaion Report available here.
 
 ## Licensing, Authors, Acknowledgements
 
