@@ -51,15 +51,15 @@ The main goal of this project is to characterize the customer segment of the pop
 ## File Description
 There are mainly two Notebooks available,
 
-• `Arvato Project Customer Segmentation Report.ipynb` : It includes Data analysis and Unsurvised learning techinques to  compare general population to the company's customers. 
+  • `Arvato Project Customer Segmentation Report.ipynb` : It includes Data analysis and Unsurvised learning techinques to    compare general population to the company's customers. 
 
-• `Arvato Project ML prediction.ipynb` : It includes Supervised learning techniques to predict which individuals are most likely to respond to a mailout campaign.
+  • `Arvato Project ML prediction.ipynb` : It includes Supervised learning techniques to predict which individuals are most likely to respond to a mailout campaign.
 
 And two python files,
 
-• `cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset.
+  • `cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset.
 
-• `ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and model evaluation functions.
+  • `ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and model evaluation functions.
 
 ## Results
 The main findings of the code can be found at this Customer Segemnetaion Report available here.
@@ -72,13 +72,14 @@ The main findings of the code can be found at this Customer Segemnetaion Report 
 
 ## References 
 
-Model Evaluation for ROC Curve Explained
 
-https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html#sphx-glr-auto-examples-model-selection-plot-roc-py
+https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html
 
 https://www.dataschool.io/roc-curves-and-auc-explained/
 
-https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
+https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html#sphx-glr-auto-examples-model-selection-plot-roc-py
+
+
 
 
 
