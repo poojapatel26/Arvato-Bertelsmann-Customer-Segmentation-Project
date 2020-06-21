@@ -7,31 +7,17 @@ from sklearn.metrics import roc_auc_score, roc_curve, precision_recall_curve, au
 def engineer_PRAEGENDE_JUGENDJAHRE(df):
     '''
     Engineer two new attributes from PRAEGENDE_JUGENDJAHRE: MOVEMENT and GENERATION_DECADE
-    PRAEGENDE_JUGENDJAHRE initial encoding
     Dominating movement of person's youth (avantgarde vs. mainstream; east vs. west)
-    - -1: unknown
-    -  0: unknown
-    -  1: 40s - war years (Mainstream, E+W)
-    -  2: 40s - reconstruction years (Avantgarde, E+W)
-    -  3: 50s - economic miracle (Mainstream, E+W)
-    -  4: 50s - milk bar / Individualisation (Avantgarde, E+W)
-    -  5: 60s - economic miracle (Mainstream, E+W)
-    -  6: 60s - generation 68 / student protestors (Avantgarde, W)
-    -  7: 60s - opponents to the building of the Wall (Avantgarde, E)
-    -  8: 70s - family orientation (Mainstream, E+W)
-    -  9: 70s - peace movement (Avantgarde, E+W)
-    - 10: 80s - Generation Golf (Mainstream, W)
-    - 11: 80s - ecological awareness (Avantgarde, W)
-    - 12: 80s - FDJ / communist party youth organisation (Mainstream, E)
-    - 13: 80s - Swords into ploughshares (Avantgarde, E)
-    - 14: 90s - digital media kids (Mainstream, E+W)
-    - 15: 90s - ecological awareness (Avantgarde, E+W)
     
-Final encooding:
-    
+     
+    Final encooding of PRAEGENDE_JUGENDJAHRE based on descriptions :
+     
+    converted all Movement into two parts and 1 and 2
     "MOVEMENT": 
     - 1: Mainstream
     - 2: Avantgarde
+    
+    converted all the generations into 4 to 9 based on generation 
     “GENERATION_DECADE”:
     - 4: 40s
     - 5: 50s
@@ -63,21 +49,11 @@ def engineer_WOHNLAGE(df):
     '''
     Engineer RURAL_NEIGHBORHOOD from WOHNLAGE attribute
     "WOHNLAGE" feature could be divided into “RURAL_NEIGHBORHOOD” and “QUALITY_NEIGHBORHOOD”.
+    
     However, there are 24% of rural data that will have missing values in "QUALITY_NEIGHBORHOOD”
     feature, therefore only binary "RURAL_NEIGHBORHOOD" feature was created inplace of "WOHNLAGE"
-    Initial encoding of WOHNLAGE:
     
-    Neighborhood quality (or rural flag)
-    - -1: unknown
-    -  0: no score calculated
-    -  1: very good neighborhood
-    -  2: good neighborhood
-    -  3: average neighborhood
-    -  4: poor neighborhood
-    -  5: very poor neighborhood
-    -  7: rural neighborhood
-    -  8: new building in rural neighborhood
-    
+    So, we created only two parts whether or not its rural neighbourhood.
     Final encooding:
     
     "RURAL_NEIGBORHOOD"
@@ -99,20 +75,17 @@ def engineer_PLZ8_BAUMAX(df):
     '''
     Engineer PLZ8_BAUMAX_BUSINESS and PLZ8_BAUMAX_FAMILY attributes from PLZ8_BAUMAX attribute
    
-    PLZ8_BAUMAX initial encoding:
     Most common building type within the PLZ8 region
-    - -1: unknown
-    -  0: unknown
-    -  1: mainly 1-2 family homes
-    -  2: mainly 3-5 family homes
-    -  3: mainly 6-10 family homes
-    -  4: mainly 10+ family homes
-    -  5: mainly business buildings
+    
+    Converted into BAUMAX_BUSINESS column for region belong business or not
+    and BAUMAX_Family column for how many family houses have
     
     Final encoding:
+    
     “PLZ8_BAUMAX_BUSINESS”
     - 0: Not Business
     - 1: Business
+    
     “PLZ8_BAUMAX_FAMILY”
     - 0: 0 families
     - 1: mainly 1-2 family homes
