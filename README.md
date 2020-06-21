@@ -2,13 +2,14 @@
 
 ## Table of Contents
 
-1. [Dependencies]()
-2. [Description]()
-3. [Data files]()
-4. [Project Motivation]()
-5. [File Description]()
-6. [Licensing, Authors, Acknowledgements]()
-7. [References]()
+1. [Dependencies](https://github.com/poojapatel26/Arvato-Project#dependencies)
+2. [Description](https://github.com/poojapatel26/Arvato-Project#description)
+3. [Data files](https://github.com/poojapatel26/Arvato-Project#data-files)
+4. [Project Motivation](https://github.com/poojapatel26/Arvato-Project#project-motivation)
+5. [File Description](https://github.com/poojapatel26/Arvato-Project#file-description)
+6. [Results](https://github.com/poojapatel26/Arvato-Project#results)
+7. [Licensing, Authors, Acknowledgements](https://github.com/poojapatel26/Arvato-Project#licensing-authors-acknowledgements)
+8. [References](https://github.com/poojapatel26/Arvato-Project#references)
   
 ## Dependencies
 
@@ -49,15 +50,16 @@ The main goal of this project is to characterize the customer segment of the pop
 
 ## File Description
 There are mainly two Notebooks available,
-`Arvato Project Customer Segmentation Report.ipynb` : It includes Data analysis and Unsurvised learning techinques to compare general population to the company's customers. 
 
-`Arvato Project ML prediction.ipynb` : It includes Supervised learning techniques to predict which individuals are most likely to respond to a mailout campaign.
+• `Arvato Project Customer Segmentation Report.ipynb` : It includes Data analysis and Unsurvised learning techinques to  compare general population to the company's customers. 
+
+• `Arvato Project ML prediction.ipynb` : It includes Supervised learning techniques to predict which individuals are most likely to respond to a mailout campaign.
 
 And two python files,
-`cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset.
 
-`ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and 
-model evaluation functions.
+• `cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset.
+
+• `ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and model evaluation functions.
 
 ## Results
 The main findings of the code can be found at this Customer Segemnetaion Report available here.
