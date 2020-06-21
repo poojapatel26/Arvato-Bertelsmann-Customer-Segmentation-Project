@@ -43,6 +43,8 @@ The Project is divided in the following Sections:
                    
 * `mailout_test`: Demographics data for individuals who were targets of a marketing campaign; 
                   42833 persons and 366 features.
+                  
+There are two more files which describes the attributes and its values. But the main datasets files are not available because of privacy of Arvato comapny's data.                  
 
 ## Project Motivation
 
