@@ -42,7 +42,7 @@ def engineer_PRAEGENDE_JUGENDJAHRE(df):
     - 7: 70s
     - 8: 80s
     - 9: 90s
-'''    
+    '''    
 
     #create new binary attribute MOVEMENT with values Avantgarde (0) vs Mainstream (1)
     df['MOVEMENT'] = df['PRAEGENDE_JUGENDJAHRE']
@@ -62,7 +62,7 @@ def engineer_PRAEGENDE_JUGENDJAHRE(df):
 
 
 def engineer_WOHNLAGE(df):
-   '''
+    '''
     Engineer RURAL_NEIGHBORHOOD from WOHNLAGE attribute
     "WOHNLAGE" feature could be divided into “RURAL_NEIGHBORHOOD” and “QUALITY_NEIGHBORHOOD”.
     
@@ -75,7 +75,7 @@ def engineer_WOHNLAGE(df):
     "RURAL_NEIGBORHOOD"
     - 0: Not Rural
     - 1: Rural
-'''
+    '''
 
     #create new binary attribute RURAL_NEIGHBORHOOD with values Rural (1) vs NotRural(0)
     df['RURAL_NEIGHBORHOOD'] = df['WOHNLAGE']
@@ -108,7 +108,7 @@ def engineer_PLZ8_BAUMAX(df):
     - 2: mainly 3-5 family homes
     - 3: mainly 6-10 family homes
     - 4: mainly 10+ family homes
-'''
+    '''
     
     #create new binary attribute PLZ8_BAUMAX_BUSINESS with values Business (1) vs Not Business(0)
     df['PLZ8_BAUMAX_BUSINESS'] = df['PLZ8_BAUMAX']
