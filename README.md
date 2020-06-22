@@ -1,4 +1,4 @@
-# Arvato-Project
+# Arvato Customer Segmentation Project
 
 ## Table of Contents
 
