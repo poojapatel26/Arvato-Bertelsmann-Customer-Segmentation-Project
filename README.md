@@ -64,7 +64,7 @@ And two python files,
   • `ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and model evaluation functions.
 
 ## Results
-The main findings of the code can be found at this Customer Segemnetaion Report available here.
+The main findings of the code can be found at this Customer Segemnetaion Report available [here].(https://medium.com/@poojapatel26/customer-segmentation-report-for-arvato-financial-solutions-e8389955a67b)
 
 ## Licensing, Authors, Acknowledgements
 
