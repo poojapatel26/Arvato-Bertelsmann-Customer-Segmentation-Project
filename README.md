@@ -75,11 +75,12 @@ The main findings of the code can be found at this Customer Segemnetaion Report 
 ## References 
 
 
-https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html
 
 https://www.dataschool.io/roc-curves-and-auc-explained/
 
 https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html#sphx-glr-auto-examples-model-selection-plot-roc-py
+
+https://www.kaggle.com/alexisbcook/titanic-tutorial
 
 
 
