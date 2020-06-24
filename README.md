@@ -59,7 +59,7 @@ There are mainly two Notebooks available,
 
 And two python files,
 
-  • `cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset.
+  • `cleaning.py` : It describes the data preprocessing and cleaning functions of **azdias** and **customers** dataset and unsupervised learning function.
 
   • `ml.py` : It describles the data preprocessing and cleaning functions of **mailout_train** and **mailout_test** dataset and model evaluation functions.
 
